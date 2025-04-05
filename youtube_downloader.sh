@@ -75,7 +75,7 @@ for channel_url in "${CHANNEL_URLS[@]}"; do
     # --retries: Number of retries on download errors.
     # --fragment-retries: Number of retries for fragments (useful for live streams or unstable connections).
 
-    /home/neil/.local/bin/yt-dlp \
+    yt-dlp \
         -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" \
         --merge-output-format mp4 \
         --download-archive "$ARCHIVE_FILE" \
