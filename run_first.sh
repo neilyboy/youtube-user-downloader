@@ -8,7 +8,7 @@ CHANNEL_URLS=(
 )
 
 # --- Directories (Must match youtube_downloader.sh) ---
-BASE_DIR="/home/neil/youtube_downloader" # Your base directory
+BASE_DIR="/opt/youtube_downloads" # Your base directory
 LOG_DIR="${BASE_DIR}/logs"
 ARCHIVE_FILE="${BASE_DIR}/downloaded_archive.txt" # ! Crucial: Must be the same archive file path !
 LOG_FILE="${LOG_DIR}/prime_archive.log"
