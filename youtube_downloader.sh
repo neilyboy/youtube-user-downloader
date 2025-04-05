@@ -11,7 +11,7 @@ CHANNEL_URLS=(
 )
 
 # --- Directories (Make sure these exist or the script will create them) ---
-BASE_DIR="/home/neil/youtube_downloader" # Base directory for all downloads
+BASE_DIR="/opt/youtube_downloads" # Base directory for all downloads
 VIDEO_DIR="${BASE_DIR}/videos"
 METADATA_DIR="${BASE_DIR}/metadata"
 LOG_DIR="${BASE_DIR}/logs"
