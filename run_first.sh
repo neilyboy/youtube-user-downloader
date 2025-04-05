@@ -3,8 +3,9 @@
 # --- Configuration ---
 # Use the EXACT SAME configuration as your youtube_downloader.sh script
 CHANNEL_URLS=(
-    "https://www.youtube.com/@goosetheband" # Replace with actual Channel URL 1 (Must match youtube_downloader.sh)
-    # Add more channel URLs as needed (Must match youtube_downloader.sh)
+    "https://www.youtube.com/@SomeChannelExample" # Replace with actual Channel URL 1
+    "https://www.youtube.com/channel/UCSomeChannelIDExample" # Replace with actual Channel URL 2
+    # Add more channel URLs as needed
 )
 
 # --- Directories (Must match youtube_downloader.sh) ---
