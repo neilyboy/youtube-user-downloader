@@ -5,7 +5,8 @@
 # e.g., "https://www.youtube.com/@SpecificChannel" or "https://www.youtube.com/channel/UC..."
 # The googleusercontent URLs provided are not standard YouTube channel URLs.
 CHANNEL_URLS=(
-    "https://www.youtube.com/@goosetheband" # Replace with actual Channel URL 1
+    "https://www.youtube.com/@SomeChannelExample" # Replace with actual Channel URL 1
+    "https://www.youtube.com/channel/UCSomeChannelIDExample" # Replace with actual Channel URL 2
     # Add more channel URLs as needed
 )
 
